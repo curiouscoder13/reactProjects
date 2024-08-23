@@ -17,7 +17,6 @@ const ShoppingCart = () => {
   );
   const handleRemoveItem = (itemId) => {
     dispatch(removeItemFromCart({ itemId }));
-    console.log(itemId);
   };
   const handleClearCart = () => {
     dispatch(clearCart());
